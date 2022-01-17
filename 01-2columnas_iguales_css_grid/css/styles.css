@@ -41,5 +41,9 @@ h1 {
 /** CODIGO AQUI **/
 
 @media (min-width: 768px) {
-    
+    .dos-columnas{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        column-gap: 2rem;
+    }
 }
